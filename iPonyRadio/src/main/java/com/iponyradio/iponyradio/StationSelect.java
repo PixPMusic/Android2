@@ -2,17 +2,10 @@ package com.iponyradio.iponyradio;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageButton;
-
-import com.iponyradio.iponyradio.stationURLs.bestPonyRadio;
 
 public class StationSelect extends ActionBarActivity {
 
@@ -95,10 +88,9 @@ public class StationSelect extends ActionBarActivity {
         builder.show();
     }
 
-    @Override
+
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_station_select);
+        /*setContentView(R.layout.fragment_station_select);
 
         //alicornRadioBtn = (ImageButton) findById(R.id.alicornRadio);
         bestPonyRadioBtn = (ImageButton) findViewById(R.id.bestPonyRadio);
@@ -114,7 +106,7 @@ public class StationSelect extends ActionBarActivity {
         // sonicRadioBoomBtn = (ImageButton) findViewById(R.id.);
         theHiveRadioBtn = (ImageButton) findViewById(R.id.theHiveRadio);
         wonderboltRadioBtn = (ImageButton) findViewById(R.id.wonderboltRadio);
-
+        */
 
         bronyRadioBtn.setOnClickListener(new View.OnClickListener(){
             @Override

@@ -1,1 +1,1 @@
-include ':iPonyRadio'
+include ':iPonyRadio', ':lib', ':lib'
